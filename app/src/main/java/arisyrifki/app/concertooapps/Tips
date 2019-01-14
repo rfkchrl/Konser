@@ -1,0 +1,17 @@
+Tips ini mungkin bisa membantu.
+
+1. kerjakan dari membuat item yg akan dikeluarkan
+2. membuat activity sebagai media untuk recyclernya.
+3. membuat model yang disesuaikan dengan item
+4. membuat holder yang disesuaikan dengan item
+5. membuat fragment yang disesuaikan model, holder, item, adapter, detail nanti
+6. membuat adapter disesuaikan dengan holder dan item yang dibuat
+
+-Mungkin ini dapat membantu sangat sedikit. Terimakasih-
+
+jika ingin memasukan gambar / vector dapat dilakukan dengan cara
+
+    res -> drawable -> klik kanan new -> vector / img asset pilih item
+    atau dengan cara meng-copy gambar dari luar lalu paste di folder drawable.
+
+    -Android Studio AutoSave-

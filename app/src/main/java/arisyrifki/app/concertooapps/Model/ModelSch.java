@@ -8,10 +8,12 @@ import java.io.Serializable;
 
 public class ModelSch implements Serializable {
 
+    //samain aja, cuma beda ini pake tipe data
     private String schTitle, schSubtitle, schTanggal;
     private int imgSch;
 
 
+    //ALT + INSERT GETTER
     public String getSchTitle() {
         return schTitle;
     }
@@ -27,6 +29,8 @@ public class ModelSch implements Serializable {
     public int getImgSch() {
         return imgSch;
     }
+
+    //ALT + INSERT CONSTRUCTOR
 
     public ModelSch(String schTitle, String schSubtitle, String schTanggal, int imgSch) {
         this.schTitle = schTitle;

@@ -39,6 +39,6 @@ public class AdapterShop extends RecyclerView.Adapter<HolderShop> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return shop.size();
     }
 }

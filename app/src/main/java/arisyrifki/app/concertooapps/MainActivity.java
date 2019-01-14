@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //casting object(view) untuk view pager
         viewPager = (ViewPager) findViewById(R.id.view_pager_main);
 
+        //casting object yang ada pada item home di layout activity main
         btnSch = (Button) findViewById(R.id.btn_sch);
         btnSing = (Button) findViewById(R.id.btn_sing);
         btnShop= (Button) findViewById(R.id.btn_shop);
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setContainerPrepared() {
 
+        //casting fragment
         adapterContainer = new AdapterContainer(getSupportFragmentManager());
         adapterContainer.addFragment(new FragmentSch(), getString(R.string.btn_Sch));
         adapterContainer.addFragment(new FragmentSing(), getString(R.string.btn_Sing));

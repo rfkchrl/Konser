@@ -13,6 +13,8 @@ import java.util.List;
 
 public class AdapterContainer extends FragmentStatePagerAdapter {
 
+    //container untuk menampung fragment yang ada
+
     public List<Fragment> fragments = new ArrayList<>();
     public List<String> labels = new ArrayList<>(); //bersifat opsionnnal
 

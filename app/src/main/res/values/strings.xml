@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">concertooapps</string>
+
+    <string name="btn_Sch">Schedule</string>
+    <string name="btn_Sing">Sing</string>
+    <string name="btn_Shop">Shop</string>
+</resources>
